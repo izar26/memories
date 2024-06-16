@@ -1,0 +1,50 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height: 150%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(1.jpg);
+    font-size: 50px;
+}
+
+.navbar h3{
+    color: white;
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(6.jpg);
+    height: 100%;
+}
+
+.foto img{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 476px) {
+    .foto img{
+        width: 45%;
+        padding: 5px;
+    }
+
+    .navbar h3{
+        font-size: 30px;
+    }
+}
